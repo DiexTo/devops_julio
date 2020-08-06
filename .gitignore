@@ -1,0 +1,5 @@
+.vagrant
+jenkins
+node
+*.box
+fsmachine

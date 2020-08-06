@@ -22,6 +22,16 @@ pipeline {
                 echo 'deploy stage'
             }
         }
+    } 
+    post{
+        always{
+            echo 'ya termine'
+        }
+        success{
+            echo 'todo salio bien'
+        }
+        failure{
+            echo 'algo fallo'
+        }
     }
- 
 }
